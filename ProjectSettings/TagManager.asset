@@ -3,12 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Background
+  - Ball
+  - Brick
+  - DestroyEffect
+  - DeathWall
+  - Collectable
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Collectable
   - Water
   - UI
   - 
@@ -40,4 +46,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3409181455
+    locked: 0
+  - name: Player
+    uniqueID: 3644011775
+    locked: 0
+  - name: Ball2D
+    uniqueID: 38809783
+    locked: 0
+  - name: Brick2D
+    uniqueID: 2332644221
+    locked: 0
+  - name: Wall
+    uniqueID: 269061475
+    locked: 0
+  - name: item
+    uniqueID: 4290492345
     locked: 0
