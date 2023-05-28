@@ -10,6 +10,8 @@ TagManager:
   - DestroyEffect
   - DeathWall
   - Collectable
+  - Food
+
   layers:
   - Default
   - TransparentFX
